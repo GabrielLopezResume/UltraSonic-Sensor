@@ -1,4 +1,5 @@
-// pick two digital pins 
+/* connect the trig and echo pins to whichever digital pins you chose.
+I chose 9 and 10. Then connect VCC to 5V and GND to ground. */  
 int trig = 9;
 int echo = 10;
 
