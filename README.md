@@ -1,2 +1,2 @@
 # UltraSonic-Sensor
-Source code to learn how to use the Ultrasonic Sensor with an arduino
+The UltraSonic sensor uses Sonar to locate where objects are in relation to the sensor. Ultra meaning inaudible to humans and Sonic meaning sound. The sensor uses a reciever, echo, and a trasmitter, trig, to send out and receive sound waves. For the sensor to work you first must trigger the trig pin to send out a signal then turn off the trig and have the echo pin recieve the sound waves. The time in between can be put into a equation to get the distance. For centimeters, multiply by .034 and divide that by 2. For inches, multiply by .013 and divide by 2. 
